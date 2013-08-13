@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<title>香草南瓜籽仁</title>
+<description>贝脆思南瓜籽仁优选AA级别原材料，香甜的南瓜籽仁口感，清淡酥香，是茶余饭后的佳品.</description>
+<type>1</type>
+<pro>
+	<img>
+		images/pdetail/pro1.png
+	</img>
+	<weight>166克</weight>
+	<link>http://www.baidu.com</link>
+	<title>香草南瓜籽仁大包装</title>
+	<description></description>
+</pro>
+<pro>
+	<img>
+		images/pdetail/pro2.png
+	</img>
+	<weight>86克</weight>
+	<link>http://www.baidu.com</link>
+	<title>香草南瓜籽仁中包装</title>
+	<description></description>
+</pro>
+<pro>
+	<img>
+		images/pdetail/pro3.png
+	</img>
+	<weight>35克</weight>
+	<link>http://www.baidu.com</link>
+	<title>香草南瓜籽仁小包装</title>
+	<description></description>
+</pro>
+</data>
