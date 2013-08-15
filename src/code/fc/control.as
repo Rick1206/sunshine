@@ -26,7 +26,7 @@
 			mySound.getInstance().loadMp3();
 			removeEventListener(Event.ADDED_TO_STAGE, init);		
 			var cfg:LoadXml = new LoadXml(GlobalVars.getPath() + "xml/control.xml" + GlobalVars.getVer(), onLoadedHandler);
-			btnArr = [btnShop, btnService, btnSearch, btnSound];
+			btnArr = [btnShop, btnService, btnSearch, btnSound,btnRegion];
 			
 			TweenMax.to(btnSound.Bg, .5, { colorTransform: { tint:0xC54A26, tintAmount:1 }} );
 			
@@ -43,6 +43,10 @@
 				
 				var strUrl:String = "";
 				switch(e.currentTarget.name) {
+					case "btnRegion":
+						strUrl = "./en/";
+						navigateToURL(new URLRequest(strUrl), "_self");
+						break;
 					case "btnShop":
 						strUrl = _xmlDate.btnshop.link;
 						navigateToURL(new URLRequest(strUrl), "_blank");

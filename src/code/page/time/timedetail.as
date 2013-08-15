@@ -50,33 +50,6 @@
 				
 				xmlLoader.addEventListener(Event.COMPLETE, onLoadedHandler);					 
 			
-			if (GlobalVars.getTime() == "") {
-				btnBack.visible = true;
-				//btnNext.visible = true;
-				//btnLast.visible = true;
-			}else {
-				btnBack.visible = false;
-				//btnNext.visible = false;
-				//btnLast.visible = false;
-			}
-			
-			switch(GlobalVars.getTime()) {
-				case "春节欢庆时刻":
-					_num = 0;
-					break;
-				case "朋友欢庆时刻":
-					_num = 1;
-					break;
-				case "旅游休闲时刻":
-					_num = 2;
-					break;
-				case "办公室小憩时刻":
-					_num = 3;
-					break;
-				case "网上享乐时刻":
-					_num = 4;
-					break;
-			}
 		}
 		
 		
@@ -94,6 +67,7 @@
 		
 		private function onPageHandler(e:MouseEvent):void 
 		{
+			
 			switch(e.currentTarget.name) {
 				case "btnNext":
 					
@@ -136,6 +110,8 @@
 			mcArr = new Array;
 			sc = new mcDtime();
 			sc.loadInfo(GlobalVars.getPath() + xmlDate.item[_num].time[0].img + GlobalVars.getVer());
+			sc.txtTitle.text = xmlDate.item[_num].time[0].title;
+			sc.txt.text = xmlDate.item[_num].time[0].description;
 			mcArr.push(sc);
 			detailFrame.addChild(sc);
 			sc.y = 235;
@@ -146,12 +122,40 @@
 		}
 		private function onLoadedHandler(e:Event):void {
 			
+			switch(GlobalVars.getTime()) {
+				case "春节欢庆时刻":
+					_num = 0;
+					break;
+				case "朋友欢庆时刻":
+					_num = 1;
+					break;
+				case "旅游休闲时刻":
+					_num = 2;
+					break;
+				case "办公室小憩时刻":
+					_num = 3;
+					break;
+				case "网上享乐时刻":
+					_num = 4;
+					break;
+			}
+			
+			if (GlobalVars.getTime() == "") {
+				btnBack.visible = true;
+			}else {
+				btnBack.visible = false;
+				GlobalVars.setTime("");
+			}
+			
+			
 			mcArr = new Array();
 			xmlDate = new XML(e.target.data);
 			//detailFrame = new Sprite();
 			sc = new mcDtime();
 			
 			sc.loadInfo(GlobalVars.getPath() + xmlDate.item[_num].time[0].img + GlobalVars.getVer());
+			sc.txtTitle.text = xmlDate.item[_num].time[0].title;
+			sc.txt.text = xmlDate.item[_num].time[0].description;
 			
 			sc.y = 235;
 			sc.x = cw;

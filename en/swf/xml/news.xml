@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<news>
+		<title>Joyous Chinese New Year</title>
+		<newsid>1</newsid>
+		<time>2011.12.29</time>
+		<link></link>
+		<description>初游路上,来包小包贝脆思放松下心情，补充点能量</description>
+		<img>images/news/n1.png</img>
+	</news>
+	<news>
+		<title>Friends party</title>
+		<newsid>2</newsid>
+		<time>2011.12.28</time>
+		<link></link>
+		<description>初游路上,来包小包贝脆思放松下心情，补充点能量</description>
+		<img>images/news/n2.png</img>
+	</news>
+	<news>
+		<title>Travel and leisure</title>
+		<newsid>3</newsid>
+		<time>2011.12.27</time>
+		<link></link>
+		<description>初游路上,来包小包贝脆思放松下心情，补充点能量</description>
+		<img>images/news/n2.png</img>
+	</news>
+	<news>
+		<title>Rest at office</title>
+		<newsid>4</newsid>
+		<time>2011.12.26</time>
+		<link></link>
+		<description>初游路上,来包小包贝脆思放松下心情，补充点能量</description>
+		<img>images/news/n1.png</img>
+	</news>
+	<news>
+		<title>Online Surfing</title>
+		<newsid>5</newsid>
+		<time>2011.12.25</time>
+		<link></link>
+		<description>初游路上,来包小包贝脆思放松下心情，补充点能量</description>
+		<img>images/news/n1.png</img>
+	</news>
+	<pageNum>1</pageNum>
+</data>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<promotion>
+		<imgurl>images/promotion1.png</imgurl>
+		<imglink>http://www.baidu.com</imglink>
+	</promotion>
+	
+	<promotion>
+		<imgurl>images/promotion2.png</imgurl>
+		<imglink>http://www.baidu.com</imglink>	
+	</promotion>
+	
+	<pageNum>1</pageNum>
+
+</data>

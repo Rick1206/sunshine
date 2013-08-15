@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<ptype>
+		<title>BagO’Grins Nut Fruits Large Package</title>
+	</ptype>
+	<ptype>
+		<title>BagO’Grins Nut Fruits Medium Package</title>
+	</ptype>
+	<ptype>
+		<title>BagO’Grins Dried Fruits</title>
+	</ptype>
+	<ptype>
+		<title>BagO’Grins Freeze Dried Fruits</title>
+	</ptype>
+	<pro>
+		<type>1</type>
+		<img>
+		images/game/pro1.png
+	</img>
+		<link>
+		</link>
+		<title>Vanilla Pumpkin Seeds1</title>
+		<description>
+		</description>
+	</pro>
+	<pro>
+		<type>2</type>
+		<img>
+		images/game/pro1.png
+	</img>
+		<link>
+		</link>
+		<title>Vanilla Pumpkin Seeds2</title>
+		<description>
+		</description>
+	</pro>
+	<pro>
+		<type>3</type>
+		<img>
+		images/game/pro1.png
+	</img>
+		<link>
+		</link>
+		<title>Vanilla Pumpkin Seeds3</title>
+		<description>
+		</description>
+	</pro>
+	<pro>
+		<type>4</type>
+		<img>
+		images/game/pro1.png
+	</img>
+		<link>
+		</link>
+		<title>Vanilla Pumpkin Seeds4</title>
+		<description>
+		</description>
+	</pro>
+	<pro>
+		<type>5</type>
+		<img>
+		images/game/pro1.png
+	</img>
+		<link>
+		</link>
+		<title>Vanilla Pumpkin Seeds5</title>
+		<description>
+		</description>
+	</pro>
+</data>

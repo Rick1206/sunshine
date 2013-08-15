@@ -47,14 +47,18 @@
 			  
 			switch(e.currentTarget.name) {
 				
-				case "mcBj":
+					case "mcBj":
 					mDetail.loadInfo("1");
+					
+					mDetail.mcSnapshot.gotoAndStop(2);
 					break;
 				case "mcTj":
 					mDetail.loadInfo("2");
+					mDetail.mcSnapshot.gotoAndStop(3);
 					break;
 				case "mcLd":
 					mDetail.loadInfo("3");
+					mDetail.mcSnapshot.gotoAndStop(1);
 					break;
 			}
 			

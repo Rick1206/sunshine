@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<messages>
+	<list>
+		<store_id>1</store_id>
+		<title>华堂</title>
+	</list>
+	<list>
+		<store_id>2</store_id>
+		<title>京北大世界</title>
+	</list>
+	<list>
+		<store_id>3</store_id>
+		<title>大润发民族园</title>
+	</list>
+	<list>
+		<store_id>4</store_id>
+		<title>永旺</title>
+	</list>
+	<list>
+		<store_id>5</store_id>
+		<title>乐天玛特</title>
+	</list>
+	<list>
+		<store_id>6</store_id>
+		<title>乐活城</title>
+	</list>
+	<list>
+		<store_id>7</store_id>
+		<title>中石化易捷</title>
+	</list>
+</messages>

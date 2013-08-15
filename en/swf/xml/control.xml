@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<btnshop>
+		<link>http://www.baidu.com</link>
+	</btnshop>
+	<btnservice>
+		<link>http://www.google.com</link>
+	</btnservice>
+	<btnsearch>
+		<link>http://www.youku.com</link>
+	</btnsearch>
+	<btnsound>
+		<link>http://www.tudou.com</link>
+		<sound></sound>
+	</btnsound>
+</data>

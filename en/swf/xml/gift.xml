@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<gift>
+		<title>BagO’Grins Feeling in Fruits Gift Package</title>
+		<link></link>
+		<type>1</type>
+		<img>images/gift/gift1.png</img>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+	</gift>
+	
+	<gift>
+		<title>BagO’Grins Present in Fruits Gift Package</title>
+		<img>images/gift/gift2.png</img>
+		<type>2</type>
+	</gift>
+	
+	
+	<gift>
+		<title>贝脆思果然有情礼盒</title>
+		<link></link>
+		<type>3</type>
+		<img>images/gift/gift3.png</img>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+	</gift>
+	
+	<gift>
+		<title>贝脆思果然有情礼盒</title>
+		<link></link>
+		<type>4</type>
+		<img>images/gift/gift4.png</img>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+		<pro>
+			<link></link>
+			<img></img>
+		</pro>
+	</gift>
+	
+	<pageNum>2</pageNum>
+</data>

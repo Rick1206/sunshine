@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<time>
+		<x>70</x>
+		<y>259</y>
+		<sx>0.45</sx>
+		<sy>0.45</sy>
+		<alp>0.5</alp>
+		<title>Joyous Chinese New Year</title>
+		<link></link>
+		<img>images/time/banner1.png</img>
+		<description>During the travel, have a small bag of Bag O’ Grins to relax yourself and replenish energies.</description>
+	</time>
+	<time>
+		<x>170</x>
+		<y>250</y>
+		<sx>0.65</sx>
+		<sy>0.65</sy>
+		<alp>0.8</alp>
+		<title>Friends party</title>
+		<link></link>
+		<img>images/time/banner2.png</img>
+		<description>During the travel, have a small bag of Bag O’ Grins to relax yourself and replenish energies.</description>
+	</time>
+	<time>
+		<x>347</x>
+		<y>230</y>
+		<sx>1</sx>
+		<sy>1</sy>
+		<alp>1</alp>
+		<title>Travel and leisure</title>
+		<link></link>
+		<img>images/time/banner3.png</img>
+		<description>During the travel, have a small bag of Bag O’ Grins to relax yourself and replenish energies.</description>
+	</time>
+	<time>
+		<x>630</x>
+		<y>250</y>
+		<sx>0.65</sx>
+		<sy>0.65</sy>
+		<alp>0.8</alp>
+		<title>Rest at office</title>
+		<link></link>
+		<img>images/time/banner4.png</img>
+		<description>During the travel, have a small bag of Bag O’ Grins to relax yourself and replenish energies.</description>
+	</time>
+	<time>
+		<x>797</x>
+		<y>259</y>
+		<sx>0.45</sx>
+		<sy>0.45</sy>
+		<alp>0.5</alp>
+		<title>Online Surfing</title>
+		<link></link>
+		<img>images/time/banner5.png</img>
+		<description>During the travel, have a small bag of Bag O’ Grins to relax yourself and replenish energies.</description>
+	</time>
+</data>

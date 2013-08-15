@@ -1,0 +1,68 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>SunShine</title>
+
+<link href="css/comm.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+	<script type="text/javascript" src="js/swfobject.js"></script>
+	<script type="text/javascript" src="js/swfaddress.js"></script>
+</head>
+
+<body>
+
+<script type="text/javascript">
+	$(function(){
+	var pageW="";
+	var pageH="";
+	
+	if($(window).width()<= 1000 || $(window).height()<= 630){
+		pageW = "1000px";
+		pageH = "730px";
+	}else{
+		pageW = "100%";
+		pageH = "100%";
+	}
+
+	var params = {};
+	params.allowscriptaccess = "always";
+	var swfVersionStr = "10.3.0";
+	var xiSwfUrlStr = "swf/expressInstall.swf";
+	var flashvars = {
+		};
+	flashvars.loc = "swf/";
+	
+	swfobject.embedSWF(
+		"swf/preloader.swf", "preloader",
+		pageW, pageH,
+		swfVersionStr, xiSwfUrlStr,
+		flashvars,params);
+	});
+	
+	
+	$(window).resize(function() {
+  		if($(window).width()>=1000 || $(window).height()>=630){
+			$("#preloader").css("width","100%");
+			$("#preloader").css("height","100%");
+		}else{
+			$("#preloader").css("width",1000);
+			$("#preloader").css("height",730);
+		}
+	});
+	
+</script>
+
+
+	<div id="preloader">
+		<a href="http://www.adobe.com/go/getflash">
+				<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="取得 Adobe Flash 播放程式" />
+		</a>
+		<p>此頁面需要 Flash Player 10.3.0 版或更新版本。</p>
+    </div>
+
+
+
+</body>
+</html>

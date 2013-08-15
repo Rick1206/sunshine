@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<title>Vanilla Pumpkin Seeds</title>
+<description>BagO’Grins Vanilla Pumpkinseed Kernels select AA grade raw materials. The pumpkinseed kernels taste fragrant, sweet, light, crisp, and is the most suitable time killer after dinner.</description>
+<type>1</type>
+<pro>
+	<img>
+		images/pdetail/pro1.png
+	</img>
+	<weight>166g</weight>
+	<link>http://www.baidu.com</link>
+	<title>Vanilla Pumpkin Seeds Large Package</title>
+	<description></description>
+</pro>
+<pro>
+	<img>
+		images/pdetail/pro2.png
+	</img>
+	<weight>86g</weight>
+	<link>http://www.baidu.com</link>
+	<title>Vanilla Pumpkin Seeds Medium Package</title>
+	<description></description>
+</pro>
+<pro>
+	<img>
+		images/pdetail/pro3.png
+	</img>
+	<weight>35g</weight>
+	<link>http://www.baidu.com</link>
+	<title>Vanilla Pumpkin Seeds Small Package</title>
+	<description></description>
+</pro>
+</data>
