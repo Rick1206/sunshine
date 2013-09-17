@@ -157,7 +157,6 @@
 				case "nut": 
 					setAddress("/brand/nut/", "#/brand/nut/", "SunShine - Brand - Nut");
 					break;
-					
 				case "gift": 
 					setAddress("/brand/gift/", "#/brand/gift/", "SunShine - Brand - Gift");
 					break;

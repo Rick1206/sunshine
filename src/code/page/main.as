@@ -78,7 +78,7 @@
 					loadSwf("nut.swf");
 					break;
 				case "/brand/fruit/": 
-					loadSwf("coming.swf");
+					loadSwf("fruit.swf");
 					break;
 				case "/brand/freeze/": 
 					loadSwf("coming.swf");
